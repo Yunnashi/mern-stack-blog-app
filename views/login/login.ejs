@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ログイン</title>
+  </head>
+  <body>
+    <h1>ログイン</h1>
+    <form action="/login" method="POST">
+      <div>
+        <label for="username">ユーザ名：</label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="ユーザ名"
+        />
+      </div>
+      <div>
+        <label for="password">パスワード：</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="パスワード"
+        />
+      </div>
+      <button>ログイン</button>
+    </form>
+  </body>
+</html>
